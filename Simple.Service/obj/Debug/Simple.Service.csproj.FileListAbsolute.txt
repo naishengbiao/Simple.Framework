@@ -1,0 +1,18 @@
+E:\Net\Simple\Simple.Service\bin\Debug\Simple.Service.dll
+E:\Net\Simple\Simple.Service\bin\Debug\Simple.Service.pdb
+E:\Net\Simple\Simple.Service\bin\Debug\Simple.DButils.dll
+E:\Net\Simple\Simple.Service\bin\Debug\Simple.Util.dll
+E:\Net\Simple\Simple.Service\bin\Debug\Simple.DButils.pdb
+E:\Net\Simple\Simple.Service\bin\Debug\Simple.Util.pdb
+E:\Net\Simple\Simple.Service\obj\Debug\ResolveAssemblyReference.cache
+E:\Net\Simple\Simple.Service\obj\Debug\Simple.Service.dll
+E:\Net\Simple\Simple.Service\obj\Debug\Simple.Service.pdb
+C:\Documents and Settings\Administrator\桌面\工作\Simple\Simple.Service\bin\Debug\Simple.Service.dll
+C:\Documents and Settings\Administrator\桌面\工作\Simple\Simple.Service\bin\Debug\Simple.Service.pdb
+C:\Documents and Settings\Administrator\桌面\工作\Simple\Simple.Service\bin\Debug\Simple.DButils.dll
+C:\Documents and Settings\Administrator\桌面\工作\Simple\Simple.Service\bin\Debug\Simple.Util.dll
+C:\Documents and Settings\Administrator\桌面\工作\Simple\Simple.Service\bin\Debug\Simple.DButils.pdb
+C:\Documents and Settings\Administrator\桌面\工作\Simple\Simple.Service\bin\Debug\Simple.Util.pdb
+C:\Documents and Settings\Administrator\桌面\工作\Simple\Simple.Service\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\工作\Simple\Simple.Service\obj\Debug\Simple.Service.dll
+C:\Documents and Settings\Administrator\桌面\工作\Simple\Simple.Service\obj\Debug\Simple.Service.pdb

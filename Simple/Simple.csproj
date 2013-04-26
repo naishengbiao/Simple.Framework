@@ -1,0 +1,404 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A944406C-C6CA-4AA4-A350-6023159FEF6A}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Simple</RootNamespace>
+    <AssemblyName>Simple</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\fineuploader-3.4.1.css" />
+    <Content Include="Images\error.png" />
+    <Content Include="Images\icon_v130322.png" />
+    <Content Include="Images\image_upload.png" />
+    <Content Include="Images\success.png" />
+    <Content Include="Images\t0102d67cd8096d41dd.png" />
+    <Content Include="Javascript\adc.simple.js" />
+    <Content Include="Javascript\fineuploader-3.4.1.js" />
+    <Content Include="lib\MyDB.mdf" />
+    <Content Include="App_Data\MyDB.sql" />
+    <Content Include="lib\MyDB_log.LDF">
+      <DependentUpon>MyDB.mdf</DependentUpon>
+    </Content>
+    <Content Include="artDialog4.1.6\artDialog.js" />
+    <Content Include="artDialog4.1.6\artDialog.source.js" />
+    <Content Include="artDialog4.1.6\jquery.artDialog.js" />
+    <Content Include="artDialog4.1.6\jquery.artDialog.source.js" />
+    <Content Include="artDialog4.1.6\plugins\iframeTools.js" />
+    <Content Include="artDialog4.1.6\plugins\iframeTools.source.js" />
+    <Content Include="artDialog4.1.6\skins\aero.css" />
+    <Content Include="artDialog4.1.6\skins\aero\aero_s.png" />
+    <Content Include="artDialog4.1.6\skins\aero\aero_s2.png" />
+    <Content Include="artDialog4.1.6\skins\aero\ie6\aui_close.hover.png" />
+    <Content Include="artDialog4.1.6\skins\aero\ie6\aui_close.png" />
+    <Content Include="artDialog4.1.6\skins\aero\ie6\aui_e.png" />
+    <Content Include="artDialog4.1.6\skins\aero\ie6\aui_n.png" />
+    <Content Include="artDialog4.1.6\skins\aero\ie6\aui_ne.png" />
+    <Content Include="artDialog4.1.6\skins\aero\ie6\aui_nw.png" />
+    <Content Include="artDialog4.1.6\skins\aero\ie6\aui_s.png" />
+    <Content Include="artDialog4.1.6\skins\aero\ie6\aui_se.png" />
+    <Content Include="artDialog4.1.6\skins\aero\ie6\aui_sw.png" />
+    <Content Include="artDialog4.1.6\skins\aero\ie6\aui_title_icon.png" />
+    <Content Include="artDialog4.1.6\skins\aero\ie6\aui_w.png" />
+    <Content Include="artDialog4.1.6\skins\black.css" />
+    <Content Include="artDialog4.1.6\skins\black\bg.png" />
+    <Content Include="artDialog4.1.6\skins\black\bg2.png" />
+    <Content Include="artDialog4.1.6\skins\black\bg_css3.png" />
+    <Content Include="artDialog4.1.6\skins\black\bg_css3_2.png" />
+    <Content Include="artDialog4.1.6\skins\black\ie6\close.hover.png" />
+    <Content Include="artDialog4.1.6\skins\black\ie6\close.png" />
+    <Content Include="artDialog4.1.6\skins\black\ie6\e.png" />
+    <Content Include="artDialog4.1.6\skins\black\ie6\n.png" />
+    <Content Include="artDialog4.1.6\skins\black\ie6\ne.png" />
+    <Content Include="artDialog4.1.6\skins\black\ie6\nw.png" />
+    <Content Include="artDialog4.1.6\skins\black\ie6\s.png" />
+    <Content Include="artDialog4.1.6\skins\black\ie6\se.png" />
+    <Content Include="artDialog4.1.6\skins\black\ie6\sw.png" />
+    <Content Include="artDialog4.1.6\skins\black\ie6\w.png" />
+    <Content Include="artDialog4.1.6\skins\blue.css" />
+    <Content Include="artDialog4.1.6\skins\blue\bg.png" />
+    <Content Include="artDialog4.1.6\skins\blue\bg2.png" />
+    <Content Include="artDialog4.1.6\skins\blue\bg_css3.png" />
+    <Content Include="artDialog4.1.6\skins\blue\bg_css3_2.png" />
+    <Content Include="artDialog4.1.6\skins\blue\ie6\close.hover.png" />
+    <Content Include="artDialog4.1.6\skins\blue\ie6\close.png" />
+    <Content Include="artDialog4.1.6\skins\blue\ie6\e.png" />
+    <Content Include="artDialog4.1.6\skins\blue\ie6\n.png" />
+    <Content Include="artDialog4.1.6\skins\blue\ie6\ne.png" />
+    <Content Include="artDialog4.1.6\skins\blue\ie6\nw.png" />
+    <Content Include="artDialog4.1.6\skins\blue\ie6\s.png" />
+    <Content Include="artDialog4.1.6\skins\blue\ie6\se.png" />
+    <Content Include="artDialog4.1.6\skins\blue\ie6\sw.png" />
+    <Content Include="artDialog4.1.6\skins\blue\ie6\w.png" />
+    <Content Include="artDialog4.1.6\skins\chrome.css" />
+    <Content Include="artDialog4.1.6\skins\chrome\border.png" />
+    <Content Include="artDialog4.1.6\skins\chrome\chrome_s.png" />
+    <Content Include="artDialog4.1.6\skins\default.css" />
+    <Content Include="artDialog4.1.6\skins\green.css" />
+    <Content Include="artDialog4.1.6\skins\green\bg.png" />
+    <Content Include="artDialog4.1.6\skins\green\bg2.png" />
+    <Content Include="artDialog4.1.6\skins\green\bg_css3.png" />
+    <Content Include="artDialog4.1.6\skins\green\bg_css3_2.png" />
+    <Content Include="artDialog4.1.6\skins\green\color_bg.png" />
+    <Content Include="artDialog4.1.6\skins\green\ie6\close.hover.png" />
+    <Content Include="artDialog4.1.6\skins\green\ie6\close.png" />
+    <Content Include="artDialog4.1.6\skins\green\ie6\e.png" />
+    <Content Include="artDialog4.1.6\skins\green\ie6\n.png" />
+    <Content Include="artDialog4.1.6\skins\green\ie6\ne.png" />
+    <Content Include="artDialog4.1.6\skins\green\ie6\nw.png" />
+    <Content Include="artDialog4.1.6\skins\green\ie6\s.png" />
+    <Content Include="artDialog4.1.6\skins\green\ie6\se.png" />
+    <Content Include="artDialog4.1.6\skins\green\ie6\sw.png" />
+    <Content Include="artDialog4.1.6\skins\green\ie6\w.png" />
+    <Content Include="artDialog4.1.6\skins\icons\error.png" />
+    <Content Include="artDialog4.1.6\skins\icons\face-sad.png" />
+    <Content Include="artDialog4.1.6\skins\icons\face-smile.png" />
+    <Content Include="artDialog4.1.6\skins\icons\loading.gif" />
+    <Content Include="artDialog4.1.6\skins\icons\question.png" />
+    <Content Include="artDialog4.1.6\skins\icons\succeed.png" />
+    <Content Include="artDialog4.1.6\skins\icons\warning.png" />
+    <Content Include="artDialog4.1.6\skins\idialog.css" />
+    <Content Include="artDialog4.1.6\skins\idialog\idialog_s.png" />
+    <Content Include="artDialog4.1.6\skins\idialog\idialog_s2.png" />
+    <Content Include="artDialog4.1.6\skins\idialog\ie6\aui_close.hover.png" />
+    <Content Include="artDialog4.1.6\skins\idialog\ie6\aui_close.png" />
+    <Content Include="artDialog4.1.6\skins\idialog\ie6\aui_e.png" />
+    <Content Include="artDialog4.1.6\skins\idialog\ie6\aui_n.png" />
+    <Content Include="artDialog4.1.6\skins\idialog\ie6\aui_ne.png" />
+    <Content Include="artDialog4.1.6\skins\idialog\ie6\aui_nw.png" />
+    <Content Include="artDialog4.1.6\skins\idialog\ie6\aui_s.png" />
+    <Content Include="artDialog4.1.6\skins\idialog\ie6\aui_se.png" />
+    <Content Include="artDialog4.1.6\skins\idialog\ie6\aui_sw.png" />
+    <Content Include="artDialog4.1.6\skins\idialog\ie6\aui_w.png" />
+    <Content Include="artDialog4.1.6\skins\opera.css" />
+    <Content Include="artDialog4.1.6\skins\opera\ie6\aui_close.hover.png" />
+    <Content Include="artDialog4.1.6\skins\opera\ie6\aui_close.png" />
+    <Content Include="artDialog4.1.6\skins\opera\ie6\aui_e.png" />
+    <Content Include="artDialog4.1.6\skins\opera\ie6\aui_n.png" />
+    <Content Include="artDialog4.1.6\skins\opera\ie6\aui_ne.png" />
+    <Content Include="artDialog4.1.6\skins\opera\ie6\aui_nw.png" />
+    <Content Include="artDialog4.1.6\skins\opera\ie6\aui_s.png" />
+    <Content Include="artDialog4.1.6\skins\opera\ie6\aui_se.png" />
+    <Content Include="artDialog4.1.6\skins\opera\ie6\aui_sw.png" />
+    <Content Include="artDialog4.1.6\skins\opera\ie6\aui_w.png" />
+    <Content Include="artDialog4.1.6\skins\opera\s1.png" />
+    <Content Include="artDialog4.1.6\skins\opera\s2.png" />
+    <Content Include="artDialog4.1.6\skins\simple.css" />
+    <Content Include="artDialog4.1.6\skins\twitter.css" />
+    <Content Include="css\admin.content.css" />
+    <Content Include="css\admin.global.css" />
+    <Content Include="css\admin.index.css" />
+    <Content Include="css\invalid.css" />
+    <Content Include="css\Pager.css" />
+    <Content Include="css\reset.css" />
+    <Content Include="css\style.css" />
+    <Content Include="css\tabsmain.css" />
+    <Content Include="Images\block-corner.png" />
+    <Content Include="Images\block-h.gif" />
+    <Content Include="Images\box-title.gif" />
+    <Content Include="Images\button-green-lit.png" />
+    <Content Include="Images\button-green.png" />
+    <Content Include="Images\button-white.gif" />
+    <Content Include="Images\close.gif" />
+    <Content Include="Images\correct.gif" />
+    <Content Include="Images\data-table-th.gif" />
+    <Content Include="Images\delimg.gif" />
+    <Content Include="Images\disable.gif" />
+    <Content Include="Images\error.gif" />
+    <Content Include="Images\exp.gif" />
+    <Content Include="Images\focus_bg.jpg" />
+    <Content Include="Images\folder.gif" />
+    <Content Include="Images\folder_open.gif" />
+    <Content Include="Images\glyphicons-halflings.png" />
+    <Content Include="Images\hint.gif" />
+    <Content Include="Images\hintbg1.gif" />
+    <Content Include="Images\hintbg2.gif" />
+    <Content Include="Images\home.gif" />
+    <Content Include="Images\ico-0.png" />
+    <Content Include="Images\ico-0_.png" />
+    <Content Include="Images\ico-1.png" />
+    <Content Include="Images\ico-1_.png" />
+    <Content Include="Images\ico-2.png" />
+    <Content Include="Images\ico-2_.png" />
+    <Content Include="Images\ico-3.png" />
+    <Content Include="Images\ico-4.png" />
+    <Content Include="Images\ico-4_.png" />
+    <Content Include="Images\ico-5.png" />
+    <Content Include="Images\ico-5_.png" />
+    <Content Include="Images\ico-6.png" />
+    <Content Include="Images\icon-mail.gif" />
+    <Content Include="Images\icon-phone.gif" />
+    <Content Include="Images\icons.png" />
+    <Content Include="Images\ico_01.gif" />
+    <Content Include="Images\index-footer.gif" />
+    <Content Include="Images\index-header.gif" />
+    <Content Include="Images\index-table-bottom-center.gif" />
+    <Content Include="Images\index-table-bottom-left.gif" />
+    <Content Include="Images\index-table-bottom-right.gif" />
+    <Content Include="Images\index-table-middle-left.gif" />
+    <Content Include="Images\index-table-middle-right.gif" />
+    <Content Include="Images\index-table-top-center.gif" />
+    <Content Include="Images\index-table-top-left.gif" />
+    <Content Include="Images\index-table-top-right.gif" />
+    <Content Include="Images\index-table-welcome-01.gif" />
+    <Content Include="Images\index-table-welcome-02.gif" />
+    <Content Include="Images\index-table-welcome-03.gif" />
+    <Content Include="Images\index_menu_bg.gif" />
+    <Content Include="Images\index_menu_bottom.gif" />
+    <Content Include="Images\index_menu_line.gif" />
+    <Content Include="Images\index_menu_off.gif" />
+    <Content Include="Images\index_menu_on.gif" />
+    <Content Include="Images\index_menu_tit.gif" />
+    <Content Include="Images\input_bg.jpg" />
+    <Content Include="Images\loading.gif" />
+    <Content Include="Images\loading2.gif" />
+    <Content Include="Images\loading_16x16.gif" />
+    <Content Include="Images\lock.gif" />
+    <Content Include="Images\login-bottom.gif" />
+    <Content Include="Images\login-top.gif" />
+    <Content Include="Images\login-welcome.gif" />
+    <Content Include="Images\login_bg.jpg" />
+    <Content Include="Images\login_btn.gif" />
+    <Content Include="Images\login_middle_1.gif" />
+    <Content Include="Images\login_middle_3.gif" />
+    <Content Include="Images\logo.gif" />
+    <Content Include="Images\noimg.gif" />
+    <Content Include="Images\out.gif" />
+    <Content Include="Images\style.css" />
+    <Content Include="Images\success.gif" />
+    <Content Include="Images\title.gif" />
+    <Content Include="Images\ts.gif" />
+    <Content Include="Images\window_mask_icon.png" />
+    <Content Include="Javascript\adc.extend.js" />
+    <Content Include="Javascript\adc.utils.js" />
+    <Content Include="Javascript\admin.js" />
+    <Content Include="Javascript\function.js" />
+    <Content Include="Javascript\jquery-1.6.min.js" />
+    <Content Include="Javascript\jquery.pager.js" />
+    <Content Include="Javascript\json2.js" />
+    <Content Include="Javascript\multipleupload_add.js" />
+    <Content Include="Javascript\multipleupload_edit.js" />
+    <Content Include="Javascript\template.js" />
+    <Content Include="Javascript\User_template.js" />
+    <Content Include="lib\AjaxPro.2.dll" />
+    <Content Include="Login.aspx" />
+    <Content Include="Main.aspx" />
+    <Content Include="Main_index.aspx" />
+    <Content Include="sys\SysInfo.aspx" />
+    <Content Include="sys\SysInfoEdit.aspx" />
+    <Content Include="uploader\uploadimg_1.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AppCode\BasePage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Box.Master.cs">
+      <DependentUpon>Box.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Box.Master.designer.cs">
+      <DependentUpon>Box.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Handle\SysInfoHandle.ashx.cs">
+      <DependentUpon>SysInfoHandle.ashx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Handle\uploader.ashx.cs">
+      <DependentUpon>uploader.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Main.aspx.cs">
+      <DependentUpon>Main.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Main.aspx.designer.cs">
+      <DependentUpon>Main.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Main_index.aspx.cs">
+      <DependentUpon>Main_index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Main_index.aspx.designer.cs">
+      <DependentUpon>Main_index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="sys\SysInfo.aspx.cs">
+      <DependentUpon>SysInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sys\SysInfo.aspx.designer.cs">
+      <DependentUpon>SysInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sys\SysInfoEdit.aspx.cs">
+      <DependentUpon>SysInfoEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sys\SysInfoEdit.aspx.designer.cs">
+      <DependentUpon>SysInfoEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="uploader\uploadimg_1.aspx.cs">
+      <DependentUpon>uploadimg_1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="uploader\uploadimg_1.aspx.designer.cs">
+      <DependentUpon>uploadimg_1.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Simple.Bll\Simple.Bll.csproj">
+      <Project>{8AA12EF1-9812-481A-8F04-E8E2CE6D4E89}</Project>
+      <Name>Simple.Bll</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Simple.Entity\Simple.Entity.csproj">
+      <Project>{05765D54-8556-4B84-9BC2-8E4346431FBD}</Project>
+      <Name>Simple.Entity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Simple.Service\Simple.Service.csproj">
+      <Project>{602EC196-9DBD-4B89-B56B-98E8C4806A8C}</Project>
+      <Name>Simple.Service</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Simple.Util\Simple.Util.csproj">
+      <Project>{CB54378E-D2FF-452C-9945-E280CE765C4E}</Project>
+      <Name>Simple.Util</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Box.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Handle\SysInfoHandle.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Handle\uploader.ashx" />
+    <None Include="lib\close.bat" />
+    <None Include="lib\sqlserver.bat" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>23336</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,10 @@
+E:\Net\Simple\Simple.Entity\bin\Debug\Simple.Entity.dll
+E:\Net\Simple\Simple.Entity\bin\Debug\Simple.Entity.pdb
+E:\Net\Simple\Simple.Entity\obj\Debug\ResolveAssemblyReference.cache
+E:\Net\Simple\Simple.Entity\obj\Debug\Simple.Entity.dll
+E:\Net\Simple\Simple.Entity\obj\Debug\Simple.Entity.pdb
+C:\Documents and Settings\Administrator\桌面\工作\Simple\Simple.Entity\bin\Debug\Simple.Entity.dll
+C:\Documents and Settings\Administrator\桌面\工作\Simple\Simple.Entity\bin\Debug\Simple.Entity.pdb
+C:\Documents and Settings\Administrator\桌面\工作\Simple\Simple.Entity\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\工作\Simple\Simple.Entity\obj\Debug\Simple.Entity.dll
+C:\Documents and Settings\Administrator\桌面\工作\Simple\Simple.Entity\obj\Debug\Simple.Entity.pdb

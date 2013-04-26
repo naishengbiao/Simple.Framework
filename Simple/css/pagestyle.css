@@ -1,0 +1,131 @@
+﻿.jPaginate
+{
+	height: 34px;
+	position: relative;
+	color: #a5a5a5;
+	font-size: small;
+	padding-top:10px;
+	
+}
+.adcpage
+{
+	display: inline-block;
+	height: 26px;
+	line-height: 26px;
+	text-align: center;
+	border: none;
+	background-image: url(../images/button-white.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	padding: 0px 0px 0px 12px;
+	text-decoration: none;
+	font-weight: normal;
+	color: #5B5959;
+	cursor: pointer;
+	margin: 2px;
+	
+	
+}
+
+
+.adcpage span
+{
+	display: block;
+	padding: 0px 12px 0px 0px;
+	background-image: url(../images/button-white.gif);
+	background-repeat: no-repeat;
+	background-position: right 0px;
+	font-size: 12px;
+	font-family:"微软雅黑","宋体","Arial";
+	
+}
+.jPag-control-back
+{
+	position: absolute;
+	left: 0px;
+}
+.jPag-control-front
+{
+	position: absolute;
+	top: 0px;
+	padding-top:10px
+}
+.jPaginate span
+{
+	cursor: pointer;
+}
+ul.jPag-pages
+{
+	float: left;
+	list-style-type: none;
+	margin: 0px 0px 0px 0px;
+	padding: 0px;
+}
+ul.jPag-pages li
+{
+	display: inline;
+	float: left;
+	padding: 0px;
+	margin: 0px;
+}
+ul.jPag-pages li a
+{
+	float: left;
+}
+span.jPag-current
+{
+}
+ul.jPag-pages li span.jPag-previous, ul.jPag-pages li span.jPag-next, span.jPag-sprevious, span.jPag-snext, ul.jPag-pages li span.jPag-previous-img, ul.jPag-pages li span.jPag-next-img, span.jPag-sprevious-img, span.jPag-snext-img
+{
+	height: 22px;
+	margin: 2px;
+	float: left;
+	line-height: 18px;
+}
+
+ul.jPag-pages li span.jPag-previous, ul.jPag-pages li span.jPag-previous-img
+{
+	margin: 2px 0px 2px 2px;
+	font-size: 12px;
+	font-weight: bold;
+	width: 10px;
+}
+ul.jPag-pages li span.jPag-next, ul.jPag-pages li span.jPag-next-img
+{
+	margin: 2px 2px 2px 0px;
+	font-size: 12px;
+	font-weight: bold;
+	width: 10px;
+}
+span.jPag-sprevious, span.jPag-sprevious-img
+{
+	margin: 2px 0px 2px 2px;
+	font-size: 18px;
+	width: 15px;
+	text-align: right;
+}
+span.jPag-snext, span.jPag-snext-img
+{
+	margin: 2px 2px 2px 0px;
+	font-size: 18px;
+	width: 15px;
+	text-align: right;
+}
+ul.jPag-pages li span.jPag-previous-img
+{
+	background: transparent url(../images/previous.png) no-repeat center right;
+}
+ul.jPag-pages li span.jPag-next-img
+{
+	background: transparent url(../images/next.png) no-repeat center left;
+}
+span.jPag-sprevious-img
+{
+	background: transparent url(../images/sprevious.png) no-repeat center right;
+}
+span.jPag-snext-img
+{
+	background: transparent url(../images/snext.png) no-repeat center left;
+}
+
+

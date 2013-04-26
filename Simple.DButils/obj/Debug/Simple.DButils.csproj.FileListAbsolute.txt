@@ -1,0 +1,14 @@
+E:\Net\Simple\Simple.DButils\obj\Debug\ResolveAssemblyReference.cache
+E:\Net\Simple\Simple.DButils\bin\Debug\Simple.DButils.dll
+E:\Net\Simple\Simple.DButils\bin\Debug\Simple.DButils.pdb
+E:\Net\Simple\Simple.DButils\obj\Debug\Simple.DButils.dll
+E:\Net\Simple\Simple.DButils\obj\Debug\Simple.DButils.pdb
+E:\Net\Simple\Simple.DButils\bin\Debug\Simple.Util.dll
+E:\Net\Simple\Simple.DButils\bin\Debug\Simple.Util.pdb
+C:\Documents and Settings\Administrator\桌面\工作\Simple\Simple.DButils\bin\Debug\Simple.DButils.dll
+C:\Documents and Settings\Administrator\桌面\工作\Simple\Simple.DButils\bin\Debug\Simple.DButils.pdb
+C:\Documents and Settings\Administrator\桌面\工作\Simple\Simple.DButils\bin\Debug\Simple.Util.dll
+C:\Documents and Settings\Administrator\桌面\工作\Simple\Simple.DButils\bin\Debug\Simple.Util.pdb
+C:\Documents and Settings\Administrator\桌面\工作\Simple\Simple.DButils\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\工作\Simple\Simple.DButils\obj\Debug\Simple.DButils.dll
+C:\Documents and Settings\Administrator\桌面\工作\Simple\Simple.DButils\obj\Debug\Simple.DButils.pdb

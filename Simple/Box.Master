@@ -1,0 +1,35 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Box.master.cs" Inherits="Simple.Box" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Simple.Framework框架</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+    <link href="css/admin.global.css" rel="stylesheet" type="text/css" />
+    <link href="css/admin.content.css" rel="stylesheet" type="text/css" />
+    <link href="css/Pager.css" rel="stylesheet" type="text/css" />
+    <link href="artDialog4.1.6/skins/default.css" rel="stylesheet" type="text/css" />
+    <link href="css/fineuploader-3.4.1.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="../Javascript/jquery-1.6.min.js"></script>
+    <script src="../Javascript/jquery.pager.js" type="text/javascript"></script>
+    <script type="text/javascript" src="../artDialog4.1.6/jquery.artDialog.source.js"></script>
+    <script type="text/javascript" src="../artDialog4.1.6/plugins/iframeTools.js"></script>
+    <script type="text/javascript" src="../Javascript/json2.js"></script>
+    <script type="text/javascript" src="../Javascript/template.js"></script>
+    <script type="text/javascript" src="../Javascript/User_template.js"></script>
+    <script type="text/javascript" src="../Javascript/adc.utils.js"></script>
+
+    <script type="text/javascript" src="../Javascript/adc.simple.js"></script>
+    <script type="text/javascript" src="../Javascript/admin.js"></script>
+  
+</head>
+<body>
+ 
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+ 
+</body>
+</html>

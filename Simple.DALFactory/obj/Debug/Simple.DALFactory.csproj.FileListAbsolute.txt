@@ -1,0 +1,10 @@
+E:\Net\Simple\Simple.DALFactory\bin\Debug\Simple.DALFactory.dll
+E:\Net\Simple\Simple.DALFactory\bin\Debug\Simple.DALFactory.pdb
+E:\Net\Simple\Simple.DALFactory\obj\Debug\ResolveAssemblyReference.cache
+E:\Net\Simple\Simple.DALFactory\obj\Debug\Simple.DALFactory.dll
+E:\Net\Simple\Simple.DALFactory\obj\Debug\Simple.DALFactory.pdb
+C:\Documents and Settings\Administrator\桌面\工作\Simple\Simple.DALFactory\bin\Debug\Simple.DALFactory.dll
+C:\Documents and Settings\Administrator\桌面\工作\Simple\Simple.DALFactory\bin\Debug\Simple.DALFactory.pdb
+C:\Documents and Settings\Administrator\桌面\工作\Simple\Simple.DALFactory\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\工作\Simple\Simple.DALFactory\obj\Debug\Simple.DALFactory.dll
+C:\Documents and Settings\Administrator\桌面\工作\Simple\Simple.DALFactory\obj\Debug\Simple.DALFactory.pdb

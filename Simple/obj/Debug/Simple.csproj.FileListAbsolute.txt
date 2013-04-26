@@ -1,0 +1,42 @@
+E:\Net\Simple\Simple\bin\Simple.dll
+E:\Net\Simple\Simple\bin\Simple.pdb
+E:\Net\Simple\Simple\obj\Debug\ResolveAssemblyReference.cache
+E:\Net\Simple\Simple\obj\Debug\Simple.dll
+E:\Net\Simple\Simple\obj\Debug\Simple.pdb
+E:\Net\Simple\Simple\bin\Simple.Bll.dll
+E:\Net\Simple\Simple\bin\Simple.Entity.dll
+E:\Net\Simple\Simple\bin\Simple.Util.dll
+E:\Net\Simple\Simple\bin\Simple.Bll.pdb
+E:\Net\Simple\Simple\bin\Simple.Entity.pdb
+E:\Net\Simple\Simple\bin\Simple.Util.pdb
+E:\Net\Simple\Simple\bin\Simple.Service.dll
+E:\Net\Simple\Simple\bin\Simple.IDal.dll
+E:\Net\Simple\Simple\bin\Simple.DALFactory.dll
+E:\Net\Simple\Simple\bin\Simple.Dal.dll
+E:\Net\Simple\Simple\bin\Simple.DButils.dll
+E:\Net\Simple\Simple\bin\Simple.Service.pdb
+E:\Net\Simple\Simple\bin\Simple.IDal.pdb
+E:\Net\Simple\Simple\bin\Simple.DALFactory.pdb
+E:\Net\Simple\Simple\bin\Simple.Dal.pdb
+E:\Net\Simple\Simple\bin\Simple.DButils.pdb
+C:\Documents and Settings\Administrator\桌面\工作\Simple\Simple\bin\Simple.dll
+C:\Documents and Settings\Administrator\桌面\工作\Simple\Simple\bin\Simple.pdb
+C:\Documents and Settings\Administrator\桌面\工作\Simple\Simple\bin\Simple.Bll.dll
+C:\Documents and Settings\Administrator\桌面\工作\Simple\Simple\bin\Simple.Entity.dll
+C:\Documents and Settings\Administrator\桌面\工作\Simple\Simple\bin\Simple.Service.dll
+C:\Documents and Settings\Administrator\桌面\工作\Simple\Simple\bin\Simple.Util.dll
+C:\Documents and Settings\Administrator\桌面\工作\Simple\Simple\bin\Simple.IDal.dll
+C:\Documents and Settings\Administrator\桌面\工作\Simple\Simple\bin\Simple.DALFactory.dll
+C:\Documents and Settings\Administrator\桌面\工作\Simple\Simple\bin\Simple.Dal.dll
+C:\Documents and Settings\Administrator\桌面\工作\Simple\Simple\bin\Simple.DButils.dll
+C:\Documents and Settings\Administrator\桌面\工作\Simple\Simple\bin\Simple.Bll.pdb
+C:\Documents and Settings\Administrator\桌面\工作\Simple\Simple\bin\Simple.Entity.pdb
+C:\Documents and Settings\Administrator\桌面\工作\Simple\Simple\bin\Simple.Service.pdb
+C:\Documents and Settings\Administrator\桌面\工作\Simple\Simple\bin\Simple.Util.pdb
+C:\Documents and Settings\Administrator\桌面\工作\Simple\Simple\bin\Simple.IDal.pdb
+C:\Documents and Settings\Administrator\桌面\工作\Simple\Simple\bin\Simple.DALFactory.pdb
+C:\Documents and Settings\Administrator\桌面\工作\Simple\Simple\bin\Simple.Dal.pdb
+C:\Documents and Settings\Administrator\桌面\工作\Simple\Simple\bin\Simple.DButils.pdb
+C:\Documents and Settings\Administrator\桌面\工作\Simple\Simple\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\工作\Simple\Simple\obj\Debug\Simple.dll
+C:\Documents and Settings\Administrator\桌面\工作\Simple\Simple\obj\Debug\Simple.pdb

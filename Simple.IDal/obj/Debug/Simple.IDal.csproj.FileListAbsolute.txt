@@ -1,0 +1,14 @@
+E:\Net\Simple\Simple.IDal\bin\Debug\Simple.IDal.dll
+E:\Net\Simple\Simple.IDal\bin\Debug\Simple.IDal.pdb
+E:\Net\Simple\Simple.IDal\obj\Debug\ResolveAssemblyReference.cache
+E:\Net\Simple\Simple.IDal\obj\Debug\Simple.IDal.dll
+E:\Net\Simple\Simple.IDal\obj\Debug\Simple.IDal.pdb
+E:\Net\Simple\Simple.IDal\bin\Debug\Simple.Entity.dll
+E:\Net\Simple\Simple.IDal\bin\Debug\Simple.Entity.pdb
+C:\Documents and Settings\Administrator\桌面\工作\Simple\Simple.IDal\bin\Debug\Simple.IDal.dll
+C:\Documents and Settings\Administrator\桌面\工作\Simple\Simple.IDal\bin\Debug\Simple.IDal.pdb
+C:\Documents and Settings\Administrator\桌面\工作\Simple\Simple.IDal\bin\Debug\Simple.Entity.dll
+C:\Documents and Settings\Administrator\桌面\工作\Simple\Simple.IDal\bin\Debug\Simple.Entity.pdb
+C:\Documents and Settings\Administrator\桌面\工作\Simple\Simple.IDal\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\工作\Simple\Simple.IDal\obj\Debug\Simple.IDal.dll
+C:\Documents and Settings\Administrator\桌面\工作\Simple\Simple.IDal\obj\Debug\Simple.IDal.pdb
