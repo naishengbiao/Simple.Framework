@@ -1,4 +1,4 @@
-
+![Simple.Framework](http://images.cnblogs.com/cnblogs_com/net-nai/480149/o_1434114495_free-08.png)
 #Simple.Framework是什么?
 Simple.Framework是由ASP.NET编写的一个系统后台,其中包括
 
